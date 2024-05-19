@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Stylish Watch",
+    "price": 59.99,
+    "image": "images/watch.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Wireless Earbuds",
+    "price": 89.99,
+    "image": "images/earbuds.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Eco-friendly Water Bottle",
+    "price": 3.29,
+    "image": "images/water-bottle.jpg",
+    "category": "Organic"
+  },
+  {
+    "id": 4,
+    "name": "Stylish Backpack",
+    "price": 79.99,
+    "image": "images/backpack.jpeg",
+    "category": "Accessories"
+  },
+  {
+    "id": 5,
+    "name": "Portable Speaker",
+    "price": 99.99,
+    "image": "images/speakers.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 6,
+    "name": "Eco-friendly Tote Bag",
+    "price": 19.99,
+    "image": "images/tote-bag.jpg",
+    "category": "Organic"
+  }
+]

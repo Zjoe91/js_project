@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Group5 E-Commerce Site</title>
+    <!-- Include Bootstrap CSS from CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Your custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Group5 E-Commerce Site</a>
+        <div id="cart-summary" class="navbar-text">
+          Cart (<span id="cart-count">0</span> items) - $<span id="cart-total"
+            >0.00</span
+          >
+          <a href="checkout.html" class="btn btn-outline-primary btn-sm"
+            >Checkout</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="container mt-4 pb-5">
+      <div class="row">
+        <!-- Products Section -->
+        <div class="col-md-9">
+          <section id="filter-section">
+            <label for="category-filter" class="form-label"
+              >Filter by category:</label
+            >
+            <select id="category-filter" class="form-select">
+              <option value="all">All</option>
+              <option value="Accessories">Accessories</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Organic">Organic</option>
+            </select>
+          </section>
+          <section>
+            <label for="search-input" class="form-label">Search:</label>
+            <input
+              type="text"
+              id="search-input"
+              class="form-control"
+              placeholder="Search products"
+            />
+            <button id="search-button" class="btn btn-primary mt-2">
+              Search
+            </button>
+          </section>
+          <section id="products-container">
+            <!-- Products will be dynamically added here -->
+          </section>
+        </div>
+        <!-- Shopping Cart Section -->
+        <div class="col-md-3">
+          <section id="cart-container" class="mb-3">
+            <h4>Shopping Cart</h4>
+            <div id="cart-items" class="list-group">
+              <!-- Cart items will be dynamically added here -->
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-3 text-white">
+      <div class="container">
+        <p>© 2024 Group5 E-Commerce Site</p>
+      </div>
+    </footer>
+    <!-- Bootstrap Bundle with Popper.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Your custom script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
